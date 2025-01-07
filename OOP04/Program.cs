@@ -55,7 +55,7 @@ namespace OOP04
             #endregion
             #region Shallow Copy Vs Deep Copy 
             //int[] Arr01= [1, 2, 3 ];
-           
+
             //int[] Arr02 = [ 4, 5, 6 ];
             //Console.WriteLine($"Arr01.GetHashCode()={Arr01.GetHashCode()}");
             //Console.WriteLine($"Arr02.GetHashCode()={Arr02.GetHashCode()}");
@@ -78,6 +78,21 @@ namespace OOP04
             #endregion
 
             #endregion
+            #region deep in case reference type 
+            //string[] Names = {"Amr", "Mona"};
+            //string[] Names2 = { "Ahmed", "Nour" };
+            //Console.WriteLine(Names.GetHashCode());
+            //Console.WriteLine(Names2.GetHashCode());
+            //Names2= (string[])Names.Clone();
+            //Clone Method :Will Generate New object with New and Different Identity
+            //             :The Object Will Has the same state[Data] pf the original object[Shallow copy of the Item ]
+            //Console.WriteLine("After deep copy:");
+            //Console.WriteLine(Names.GetHashCode());
+            //Console.WriteLine(Names2.GetHashCode());
+            //Names2[0] = new string("Khalad");
+            //Console.WriteLine(Names[0]); 
+            #endregion
+
         }
     }
 }
