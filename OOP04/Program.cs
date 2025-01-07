@@ -1,5 +1,6 @@
 ﻿using OOP04.Interface_Ex01;
 using OOP04.Interface_Ex02;
+using OOP04.Interface_Ex03;
 
 namespace OOP04
 {
@@ -43,7 +44,15 @@ namespace OOP04
             //TypeD seriesByFour = new TypeD();
             //PrintTenNumbersFromSeries(seriesByFour);
             #endregion
-
+            #region Interface Ex03
+            //Airplane airplane = new Airplane();
+            //airplane.Speed = 180;
+            ////airplane.forward();//Not correct
+            //IFlyable flyable=airplane;
+            //flyable.Backward();
+            //IMovable moveable = airplane;
+            //moveable.Backward();
+            #endregion
         }
     }
 }
