@@ -53,6 +53,31 @@ namespace OOP04
             //IMovable moveable = airplane;
             //moveable.Backward();
             #endregion
+            #region Shallow Copy Vs Deep Copy 
+            //int[] Arr01= [1, 2, 3 ];
+           
+            //int[] Arr02 = [ 4, 5, 6 ];
+            //Console.WriteLine($"Arr01.GetHashCode()={Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02.GetHashCode()={Arr02.GetHashCode()}");
+            #region shallow 
+            //[Shallow Copy] from Stack 
+            //object of Arr01 Has two reference
+            // object of Arr02 unreachable object 
+            //Arr02 = Arr01;
+            //Console.WriteLine("After Shallow Copy:"); 
+            #endregion
+            #region Deep in case array of value type
+            //Arr02 = (int[])Arr01.Clone();
+            //return object 
+            //Clone Method: Will Generate New Object with New and Different Identity
+            //            : This Object Will Have The Same State [Data] of the Caller Object 
+            //Console.WriteLine($"Arr01.GetHashCode()={Arr01.GetHashCode()}");
+            //Console.WriteLine($"Arr02.GetHashCode()={Arr02.GetHashCode()}");
+            //Arr02[0] = 100;
+            //Console.WriteLine(Arr01[0]);
+            #endregion
+
+            #endregion
         }
     }
 }
