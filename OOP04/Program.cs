@@ -1,9 +1,22 @@
 ﻿using OOP04.Interface_Ex01;
+using OOP04.Interface_Ex02;
 
 namespace OOP04
 {
     internal class Program
     {
+        static void PrintTenNumbersFromSeries(ISeries seriesByTwo)
+        {
+            if (seriesByTwo != null)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    Console.WriteLine(seriesByTwo.Current);
+                    seriesByTwo.GetNext();
+                }
+                seriesByTwo.Reset();
+            }
+        }
         static void Main(string[] args)
         {
             #region Interface Example01
@@ -21,7 +34,15 @@ namespace OOP04
             //type.MyProperty = 3;
             //type.Print(); Invalid  
             #endregion
-
+            #region Interface Example02
+            ////TypeB Has Behaviour series
+            //TypeB seriesByTwo = new TypeB();
+            //PrintTenNumbersFromSeries(seriesByTwo);
+            //TypeC seriesByThree = new TypeC();
+            //PrintTenNumbersFromSeries(seriesByThree);
+            //TypeD seriesByFour = new TypeD();
+            //PrintTenNumbersFromSeries(seriesByFour);
+            #endregion
 
         }
     }
