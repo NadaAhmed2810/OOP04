@@ -31,6 +31,9 @@
             #region Q8:What is the purpose of an explicit interface implementation in C#?
             // To provide a clear separation between interface and class members
             #endregion
+            #region Q9: In C#, can an interface have a constructor?
+            //b) No, interfaces cannot have constructors
+            #endregion
 
 
             #endregion
