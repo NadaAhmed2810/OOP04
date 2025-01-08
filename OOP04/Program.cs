@@ -113,7 +113,7 @@ namespace OOP04
             //Console.WriteLine(employee);
             //Console.WriteLine(employee2); 
             #endregion
-            #region BuiltIN Interface ICompareable
+            #region BuiltIN Interface ICompareable and Icomparer
             //int[] Numbers = [9, 4, -1, 10, 2, 7, 5, 6];
             //Array.Sort(Numbers);
             //foreach (int i in Numbers)
@@ -121,18 +121,26 @@ namespace OOP04
             //    Console.WriteLine(i);
 
             //}
-            Employee[] employees = 
-            { 
-                new Employee(){Id=3,Name="ahmed",Salary=60000,Department =new Department(){Code=1001,Title="Sales" } },
-                 new Employee(){Id=2,Name="Ali",Salary=5000,Department =new Department(){Code=1002,Title="HR" } },
-                 new Employee(){Id=4,Name="Nada",Salary=50000,Department =new Department(){Code=1001,Title="Sales" } },
-                  new Employee(){Id=5,Name="Omnia",Salary=53000,Department =new Department(){Code=1003,Title="HR" } }
-            };
-            Array.Sort(employees);
-            foreach (Employee employee in employees)
-            {
-                Console.WriteLine(employee);
-            }
+            //Employee[] employees = 
+            //{ 
+            //    new Employee(){Id=3,Name="ahmed",Salary=60000,Department =new Department(){Code=1001,Title="Sales" } },
+            //     new Employee(){Id=2,Name="Ali",Salary=5000,Department =new Department(){Code=1002,Title="HR" } },
+            //     new Employee(){Id=4,Name="Nada",Salary=50000,Department =new Department(){Code=1001,Title="Sales" } },
+            //      new Employee(){Id=5,Name="Omnia",Salary=53000,Department =new Department(){Code=1003,Title="HR" } }
+            //};
+            //Array.Sort(employees,new EmployeeComparer());
+            //foreach (Employee employee in employees)
+            //{
+            //    Console.WriteLine(employee);
+            //}
+            #endregion
+            #region Sort Array of interger des
+            //int[] Numbers = [1, 4, 5, 6, 7, 9, -5, 8];
+            //Array.Sort(Numbers);
+            //for (int i = 0; i < Numbers.Length; i++)
+            //{
+            //    Console.WriteLine(Numbers[i]);
+            //}
             #endregion
 
 
