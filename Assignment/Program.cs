@@ -22,8 +22,14 @@
             //d) implements [none of all ':'] i do not use this keyword implements in Java
             #endregion
             #region Q6:Can an interface contain static methods in C#?
-           // a) Yes [in C# 8.0]
+            // a) Yes [in C# 8.0]
 
+            #endregion
+            #region Q7:In C#, can an interface have explicit access modifiers for its members?
+            //b) No, all members are implicitly public
+            #endregion
+            #region Q8:What is the purpose of an explicit interface implementation in C#?
+            // To provide a clear separation between interface and class members
             #endregion
 
 
