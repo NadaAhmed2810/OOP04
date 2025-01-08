@@ -12,8 +12,11 @@
             //a) private
 
             #endregion
+            #region Q3:Can an interface contain fields in C#?
+            //c) Only if they are static
+            #endregion
 
-        #endregion
-    }
+            #endregion
+        }
     }
 }
