@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using Assignment.Question01;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -39,6 +41,15 @@
 
             #endregion
 
+            #endregion
+            #region Part02
+            #region Q1
+            //Circle circle = new Circle(5.0);
+            //Rectangle rectangle = new Rectangle(10.0, 40.0);
+
+            //circle.DisplayShapeInfo();
+            //rectangle.DisplayShapeInfo();
+            #endregion
             #endregion
         }
     }
