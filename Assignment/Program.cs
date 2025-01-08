@@ -21,7 +21,11 @@
             #region Q5:Which keyword is used to implement an interface in a class in C#?
             //d) implements [none of all ':'] i do not use this keyword implements in Java
             #endregion
-            
+            #region Q6:Can an interface contain static methods in C#?
+           // a) Yes [in C# 8.0]
+
+            #endregion
+
 
             #endregion
         }
