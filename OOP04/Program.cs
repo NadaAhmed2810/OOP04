@@ -1,4 +1,5 @@
-﻿using OOP04.Interface_Ex01;
+﻿using OOP04.BuiltInInterfaces;
+using OOP04.Interface_Ex01;
 using OOP04.Interface_Ex02;
 using OOP04.Interface_Ex03;
 
@@ -92,6 +93,29 @@ namespace OOP04
             //Names2[0] = new string("Khalad");
             //Console.WriteLine(Names[0]); 
             #endregion
+            #region Built_In Interfaces ICloneable
+            //Employee employee = new Employee() { Id = 10, Name = "Ahmed", Salary = 5000, Department = new Department() {Code=10,Title="sales" } };
+            //Employee employee2 = new Employee() { Id = 20, Name = "Omnia", Salary = 7000, Department = new Department() { Code = 20, Title = "HR" }  };
+            //Console.WriteLine(employee.GetHashCode());
+            //Console.WriteLine(employee2.GetHashCode());
+            //employee2 = (Employee)employee.Clone();
+            //employee2=new Employee(employee);
+            //Console.WriteLine("After Deep Copy");
+            //Console.WriteLine(employee.GetHashCode());
+            //Console.WriteLine(employee2.GetHashCode());
+            //Console.WriteLine("*******************");
+            //Console.WriteLine(employee);
+            //Console.WriteLine(employee2);
+            //employee2.Salary = 10000;
+            //if (employee2.Department is not null)
+            //    employee2.Department.Title = "NEW";
+            //Console.WriteLine("*******************");
+            //Console.WriteLine(employee);
+            //Console.WriteLine(employee2); 
+            #endregion
+
+
+
 
         }
     }
