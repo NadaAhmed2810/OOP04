@@ -1,4 +1,5 @@
 ﻿using Assignment.Question01;
+using Assignment.Question02;
 
 namespace Assignment
 {
@@ -49,6 +50,32 @@ namespace Assignment
 
             //circle.DisplayShapeInfo();
             //rectangle.DisplayShapeInfo();
+            #endregion
+            #region Q2:
+            //IAuthenticationService authService01 = new BasicAuthenticationService
+            //{
+            //    Username = "Nada",
+            //    Password = "Nada123",
+            //    Role = "Admin"
+            //};
+            //IAuthenticationService authService02 = new BasicAuthenticationService
+            //{
+            //    Username = "Nour",
+            //    Password = "Nour123",
+            //    Role = "Student"
+            //};
+            //bool isAuthenticated = authService01.AuthenticateUser("Nada", "Nada123");
+            //Console.WriteLine($"User authentication : {isAuthenticated}"); 
+
+            
+            //bool isAuthorized = authService01.AuthorizeUser("Nada", "Admin");
+            //Console.WriteLine($"User authorization : {isAuthorized}");
+
+            
+            //isAuthenticated = authService02.AuthenticateUser("Nada", "Nour123");
+            //Console.WriteLine($"User authentication  : {isAuthenticated}");
+            //isAuthorized = authService02.AuthorizeUser("Nour", "Admin");
+            //Console.WriteLine($"User authorization : {isAuthorized}"); 
             #endregion
             #endregion
         }
