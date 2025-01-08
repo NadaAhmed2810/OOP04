@@ -1,5 +1,6 @@
 ﻿using Assignment.Question01;
 using Assignment.Question02;
+using Assignment.Question03;
 
 namespace Assignment
 {
@@ -67,16 +68,29 @@ namespace Assignment
             //bool isAuthenticated = authService01.AuthenticateUser("Nada", "Nada123");
             //Console.WriteLine($"User authentication : {isAuthenticated}"); 
 
-            
+
             //bool isAuthorized = authService01.AuthorizeUser("Nada", "Admin");
             //Console.WriteLine($"User authorization : {isAuthorized}");
 
-            
+
             //isAuthenticated = authService02.AuthenticateUser("Nada", "Nour123");
             //Console.WriteLine($"User authentication  : {isAuthenticated}");
             //isAuthorized = authService02.AuthorizeUser("Nour", "Admin");
             //Console.WriteLine($"User authorization : {isAuthorized}"); 
             #endregion
+            #region Q3:
+            //INotificationService EmailService = new EmailNotificationService();
+            //INotificationService SMSService = new SmsNotificationService();
+            //INotificationService PushService = new PushNotificationService();
+
+  
+            //EmailService.SendNotification("Noura@gmail.com", "Hi,Noura.");
+            //SMSService.SendNotification("Nour", "Your SMS notification message.");
+            //PushService.SendNotification("Noura", "Your push notification message.");
+
+           
+            #endregion
+
             #endregion
         }
     }
