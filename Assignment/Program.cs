@@ -15,6 +15,9 @@
             #region Q3:Can an interface contain fields in C#?
             //c) Only if they are static
             #endregion
+            #region Q4:In C#, can an interface inherit from another interface?
+            //b) Yes, interfaces can inherit from multiple interfaces
+            #endregion
 
             #endregion
         }
