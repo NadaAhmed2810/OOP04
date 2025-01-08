@@ -113,6 +113,27 @@ namespace OOP04
             //Console.WriteLine(employee);
             //Console.WriteLine(employee2); 
             #endregion
+            #region BuiltIN Interface ICompareable
+            //int[] Numbers = [9, 4, -1, 10, 2, 7, 5, 6];
+            //Array.Sort(Numbers);
+            //foreach (int i in Numbers)
+            //{
+            //    Console.WriteLine(i);
+
+            //}
+            Employee[] employees = 
+            { 
+                new Employee(){Id=3,Name="ahmed",Salary=60000,Department =new Department(){Code=1001,Title="Sales" } },
+                 new Employee(){Id=2,Name="Ali",Salary=5000,Department =new Department(){Code=1002,Title="HR" } },
+                 new Employee(){Id=4,Name="Nada",Salary=50000,Department =new Department(){Code=1001,Title="Sales" } },
+                  new Employee(){Id=5,Name="Omnia",Salary=53000,Department =new Department(){Code=1003,Title="HR" } }
+            };
+            Array.Sort(employees);
+            foreach (Employee employee in employees)
+            {
+                Console.WriteLine(employee);
+            }
+            #endregion
 
 
 

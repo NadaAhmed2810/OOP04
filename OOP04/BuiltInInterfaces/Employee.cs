@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP04.BuiltInInterfaces
 {
-     class Employee:ICloneable
+     class Employee:ICloneable,IComparable<Employee>
     {
         public int Id { get; set; }
         public string? Name { get; set; }
@@ -38,7 +38,22 @@ namespace OOP04.BuiltInInterfaces
         {
             return $"Id:{Id},Name:{Name},Salary:{Salary},Department:{Department}";
         }
+        //+ve this.Salary>obj.Salary;
+        //0 this.Salary==obj.Salary;
+        //-ve this.Salary<obj.Salary;
+        public int CompareTo(Employee? obj)
+        {
+            //Employee? Other = (Employee?)obj;//Unsafe Casting
+            //des return -
+            return this.Salary.CompareTo(obj?.Salary) ;
+            //if (Other != null)
+            //{
+            //    if (this.Salary > Other.Salary) return 1;
+            //    if (this.Salary == Other.Salary) return 0;
+            //    return -1;
+            //}
+            //return 1;
 
-
+        }
     }
 }
