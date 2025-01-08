@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP04.Interface_Ex03
 {
-    internal interface IFlyable
+    internal interface IAirPlane:IMovable,IFlyable
     {
-        //void forward();
-        void Backward();
-        //void Left();
-        //void Right();
-    }
 
+    }
 }
